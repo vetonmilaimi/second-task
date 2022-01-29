@@ -1,0 +1,40 @@
+.question {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid #999;
+    display: flex;
+}
+
+.question>p {
+    flex: 12;
+}
+
+.question>i {
+    flex: 1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+
+.answer {
+    border: 1px solid #999;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.answer>p {
+    color: rgba(0, 0, 0, 0.418);
+}
+
+@media screen and (max-width: 768px) {
+    .question>p {
+        flex: 100%;
+    }
+
+    .question>i {
+        flex: 5;
+        margin-left: 60%;
+    }
+}

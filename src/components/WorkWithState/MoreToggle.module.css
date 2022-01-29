@@ -1,0 +1,78 @@
+.mainToggle {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+.questionsToggle {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+.right {
+    flex: 12;
+    display: flex;
+}
+
+.picture {
+    margin: 20px;
+}
+
+.title>p {
+    margin-top: -20px;
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.icon {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+
+.picture>i {
+    color: rgb(0, 26, 255);
+    font-size: 3.5rem;
+}
+
+.icon>i {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .right {
+        width: 150px;
+    }
+
+    .icon {
+        flex: 1;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .picture {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    .right {
+        width: 150px;
+    }
+
+    .icon {
+        flex: 1;
+        margin-left: 10%;
+    }
+}

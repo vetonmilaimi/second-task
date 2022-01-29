@@ -1,0 +1,11 @@
+.card {
+    text-align: center;
+    flex-basis: 20%;
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.paragraph {
+    color: rgba(0, 0, 0, 0.37);
+} 
